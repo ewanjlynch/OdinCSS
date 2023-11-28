@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 225px;
+    padding-right: 225px;;
+}
+nav {
+    display: flex;
+    color: #f9faf8;
+    justify-content: space-between
+
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    font-size: 18px;
+}
+
+#headerlogo {
+    font-weight: 800;
+    border: 1px solid;
+    font-size: 24px;
+
+}
+
+.signup {
+    background-color: #3882f6;
+    font-weight: 800;
+    padding: 1em;
+}
+
+.infoboxes {
+    display: flex;
+    background-color: white
+}
+
+.bluebox {s
+    border: 5px;
+    border-color: #3882F6
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.headerbulk {
+display: flex;
+justify-content: space-between;
+}
+
+.headerleft {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    flex: 1
+}
+
+#image-placeholder {
+    background-color: grey;
+    color: #e5e7eb;
+    justify-content: center;
+    flex: 1
+}
+.whitetext {
+    color: #e5e7eb;
+    font-size; 18px;
+}
+
+.quotebox {
+    background-color: #e5e7eb;
+}
+
+#quotetext {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
